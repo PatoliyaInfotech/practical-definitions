@@ -37,17 +37,22 @@
 
 
 
-### User Stories
-* As an unregistered user, I would like to sign up with email and password.
-* As a registered user, I would like to sign in with email and password.
-* As a signed in user, I would like to change password.
-* As a signed in user, I would like to sign out.
-* As a signed in user, I would like to create, update and delete a books which is added by me.
-* As a signed in user, I would like to list my books which is added by me.
+### Default Routes for user 
+
+| Method | Path | Purpose | Response|
+| ------ | ---------------- | -------------- | ------------------- |
+| POST | /auth/login | Login user | Return token |
+| POST | /auth/signup | Creates User, Password must be encrypted  | Return result |
+| GET | /profile | Get User Profile | Return user profile object |
 
 
 
-### List view
-* Show list in table view with (Book Id, Book Name, Book Desc, Book Author, No of Pages, Category, Price, Released Year, Options[Edit / Delete]) details.
-* User can search by all fields (Book Name, Book Desc, Book Author, No of Pages, Category, Price, Released Year)
-* Add pagination for long list of books.
+### Default Routes for book 
+
+| Method | Path | Purpose | Response |
+| ------ | ---------------- | -------------- | ------------------- |
+| GET | /api/books | Get all Books, It includes pagination, offset and searching option | All books array | 
+| POST | /api/books | Create new book | Return book object | 
+| GET | /api/books/:id | Get a specific book | Return book object | 
+| PUT | /api/books/:id | Edit a specific book | Return book object | 
+| DELETE | /api/books/:id | Delete a specific book | Return result | 
