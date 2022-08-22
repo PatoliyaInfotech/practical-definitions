@@ -155,7 +155,7 @@
 </div>
 
 
-### Administrator Model
+### Common User Model
 
 | Column Name | Data Type | Notes |
 | --------------- | ------------- | ------------------------------ |
@@ -163,44 +163,48 @@
 | name | String | Must be provided |
 | email | String | Must be unique / used for login |
 | password | String | Stored as a hash |
+| gender | String | Male / Female |
+| image | String | Not required |
+| role | Integer | From role table (foreign key) |
 | created_at | Datetime | Auto-generated |
 | updated_at | Datetime | Auto-generated |
 
 
 
-### HOD & Faculty Model
+### Role Model
 
 | Column Name | Data Type | Notes |
 | --------------- | ------------- | ------------------------------ |
 | id | Integer | Primary Key, Auto-generated |
 | name | String | Must be provided |
-| email | String | Must be unique / used for login |
-| password | String | Stored as a hash |
-| created_at | Datetime | Auto-generated |
-| updated_at | Datetime | Auto-generated |
+| priority | Integer | Must be provided |
 
 
 
-### Staff Model
+### Leave Model
 
 | Column Name | Data Type | Notes |
 | --------------- | ------------- | ------------------------------ |
 | id | Integer | Primary Key, Auto-generated |
-| name | String | Must be provided |
-| email | String | Must be unique / used for login |
-| password | String | Stored as a hash |
+| user_id | Integer | From user table (foreign key) |
+| start_date | Datetime | Must be provided |
+| end_date | Datetime | Must be provided |
+| request_to_id | Integer | From user table (foreign key) |
+| leave_type | Enum | Check types of leaves |
+| reason | String | Must be provided |
+| status | Enum | Pending, Approved, Rejected |
 | created_at | Datetime | Auto-generated |
 | updated_at | Datetime | Auto-generated |
 
 
 
-### Student Model
-
-| Column Name | Data Type | Notes |
-| --------------- | ------------- | ------------------------------ |
-| id | Integer | Primary Key, Auto-generated |
-| name | String | Must be provided |
-| email | String | Must be unique / used for login |
-| password | String | Stored as a hash |
-| created_at | Datetime | Auto-generated |
-| updated_at | Datetime | Auto-generated |
+### Types Of Leaves
+* Privilege Leave (PL) or Earned Leave (EL)
+* Casual Leave (CL)
+* Sick Leave (SL)
+* Maternity Leave (ML)
+* Compensatory Off (Comp-off)
+* Marriage Leave
+* Paternity Leave
+* Bereavement Leave
+* Loss of Pay (LOP) / Leave Without Pay (LWP)
