@@ -164,7 +164,10 @@
 | email | String | Must be unique / used for login |
 | password | String | Stored as a hash |
 | gender | String | Male / Female |
-| image | String | Not required |
+| image | String | Must be provided |
+| gr_number | String | Must be provided |
+| phone | String | Must be provided |
+| address | String | Must be provided |
 | role | Integer | From role table (foreign key) |
 | created_at | Datetime | Auto-generated |
 | updated_at | Datetime | Auto-generated |
@@ -181,7 +184,7 @@
 
 
 
-### Leave Model
+### Leave Request Model
 
 | Column Name | Data Type | Notes |
 | --------------- | ------------- | ------------------------------ |
@@ -190,7 +193,7 @@
 | start_date | Datetime | Must be provided |
 | end_date | Datetime | Must be provided |
 | request_to_id | Integer | From user table (foreign key) |
-| leave_type | Enum | Check types of leaves |
+| leave_type | Enum | First half, Second half, Full day |
 | reason | String | Must be provided |
 | status | Enum | Pending, Approved, Rejected |
 | created_at | Datetime | Auto-generated |
@@ -198,13 +201,16 @@
 
 
 
-### Types Of Leaves
-* Privilege Leave (PL) or Earned Leave (EL)
-* Casual Leave (CL)
-* Sick Leave (SL)
-* Maternity Leave (ML)
-* Compensatory Off (Comp-off)
-* Marriage Leave
-* Paternity Leave
-* Bereavement Leave
-* Loss of Pay (LOP) / Leave Without Pay (LWP)
+### User Leave Model
+| Column Name | Data Type | Notes |
+| --------------- | ------------- | ------------------------------ |
+| id | Integer | Primary Key, Auto-generated |
+| user_id | Integer | From user table (foreign key) |
+| total_leave | Integer | Must be provided |
+| available_leave | Integer | Must be provided |
+| used_leave | Integer | Must be provided |
+| academic_year | String | Must be provided |
+| total_working_days | Integer | Must be provided |
+| attendance_percentage | Decimal | Must be provided |
+| created_at | Datetime | Auto-generated |
+| updated_at | Datetime | Auto-generated |
