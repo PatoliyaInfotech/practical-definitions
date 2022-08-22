@@ -168,6 +168,8 @@
 | gr_number | String | Must be provided |
 | phone | String | Must be provided |
 | address | String | Must be provided |
+| department | String | Must be provided |
+| class | String | Must be provided |
 | role | Integer | From role table (foreign key) |
 | created_at | Datetime | Auto-generated |
 | updated_at | Datetime | Auto-generated |
