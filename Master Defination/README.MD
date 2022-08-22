@@ -214,3 +214,11 @@
 | attendance_percentage | Decimal | Must be provided |
 | created_at | Datetime | Auto-generated |
 | updated_at | Datetime | Auto-generated |
+
+
+
+### Additional Functionality
+* Log in with social account (FB, Google)
+* Send a reminder email to faculty or admin if leave requests are pending using the CRON job.
+* Create blogs/forms for students.
+* Create forget/reset password functionality.
