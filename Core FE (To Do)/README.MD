@@ -9,10 +9,10 @@
 * User able to filter todo by Active and Completed
 * User able to delete todo
 
-! [Main](/Core FE (To Do)/1.png)
+! [Main](https://github.com/PatoliyaInfotech/practical-definitions/blob/master/Core%20FE%20(To%20Do)/1.png)
 
-! [FirstToDo](/Core FE (To Do)/2.png)
+! [FirstToDo](https://github.com/PatoliyaInfotech/practical-definitions/blob/master/Core%20FE%20(To%20Do)/2.png)
 
-! [CompletedToDo](/Core FE (To Do)/3.png)
+! [CompletedToDo](https://github.com/PatoliyaInfotech/practical-definitions/blob/master/Core%20FE%20(To%20Do)/3.png)
 
-! [Filter](/Core FE (To Do)/4.png)
+! [Filter](https://github.com/PatoliyaInfotech/practical-definitions/blob/master/Core%20FE%20(To%20Do)/4.png)
