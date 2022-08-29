@@ -9,10 +9,10 @@
 * User able to filter todo by Active and Completed
 * User able to delete todo
 
-! [Main](/1.png)
+! [Main](/Core FE (To Do)/1.png)
 
-! [FirstToDo](/2.png)
+! [FirstToDo](/Core FE (To Do)/2.png)
 
-! [CompletedToDo](/3.png)
+! [CompletedToDo](/Core FE (To Do)/3.png)
 
-! [Filter](/4.png)
+! [Filter](/Core FE (To Do)/4.png)
