@@ -16,3 +16,5 @@
 ![CompletedToDo](https://github.com/PatoliyaInfotech/practical-definitions/blob/master/Core%20FE%20(To%20Do)/3.png)
 
 ![Filter](https://github.com/PatoliyaInfotech/practical-definitions/blob/master/Core%20FE%20(To%20Do)/4.png)
+
+![EditToDo](https://github.com/PatoliyaInfotech/practical-definitions/blob/master/Core%20FE%20(To%20Do)/5.png)
