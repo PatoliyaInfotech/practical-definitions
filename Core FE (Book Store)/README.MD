@@ -51,3 +51,31 @@
 * Show list in table view with (Book Id, Book Name, Book Desc, Book Author, No of Pages, Category, Price, Released Year, Options[Edit / Delete]) details.
 * User can search by all fields (Book Name, Book Desc, Book Author, No of Pages, Category, Price, Released Year)
 * Add pagination for long list of books.
+* Create two tables to display data 
+    * (1) Using DataTable JQuery
+    * (2) Custome Table
+        * Create all possible function separately and reuse it
+        For example - 
+            * Show details of all books.
+            * Show Book by Book Id.
+            * Show Book by Book Name.
+            * Show Book by Book Author and Book Name.
+            * Show Book by having pages More than 100.
+            * Show Book by Having pages Less than 90 & More than 25.
+            * Show Book by Having pages Less than 90 & More than 25 & but not 80 Pages.
+            * Show Book by having pages zero Pages.
+            * Show Book which Released Year is 2015 & 2001.
+            * Delete Book by Book Id.
+            * Delete Book by Book Name.
+            * Delete Book by Book Author and Book Description.
+            * Delete Book by Book Name and Book Category.
+            * Update Book by Book Id.
+            * Update Book by Book Name.
+            * Update Book by Book Author and Book Name.
+            * Sort Book by Book Name.
+            * Sort Book by Book Price.
+            * Sort Book by Book Author.
+            * Sort Book by Book No Of Pages.
+            * Sort Book by Book Category.
+            * Sort Book by Book Released Year.
+        * Validations for all above.
