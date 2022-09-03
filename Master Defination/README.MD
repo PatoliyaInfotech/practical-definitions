@@ -224,3 +224,9 @@
 * Send a reminder email to faculty or admin if leave requests are pending using the CRON job.
 * Create blogs/forms for students.
 * Create forget/reset password functionality.
+
+
+### Development Tools and Frameworks
+* PHP (Core, CI and Laravel) [HTML + CSS + JS + JQuery + AJAX + Bootstrap + DataTable]
+* MERN
+* MEAN

@@ -56,3 +56,9 @@
 | GET | /api/books/:id | Get a specific book | Return book object | 
 | PUT | /api/books/:id | Edit a specific book | Return book object | 
 | DELETE | /api/books/:id | Delete a specific book | Return result | 
+
+
+
+### Development Tools and Frameworks
+* PHP (Core, CI and Laravel)
+* Node (Express and Hapi JS)

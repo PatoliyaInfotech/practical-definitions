@@ -79,3 +79,11 @@
             * Sort Book by Book Category.
             * Sort Book by Book Released Year.
         * Validations for all above.
+        * ![Main](https://github.com/PatoliyaInfotech/practical-definitions/blob/master/Core%20FE%20(Book%20Store)/1.png)
+
+
+### Development Tools and Frameworks
+* JS
+* Angular JS
+* React JS
+* Vue JS
