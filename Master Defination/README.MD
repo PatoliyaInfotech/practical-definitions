@@ -8,9 +8,9 @@
         <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
             <p>Login</p>
         </li>
-        <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
+        <!-- <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
             <p>Manage Department</p>
-        </li>
+        </li> -->
         <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
             <p>Manage Student</p>
         </li>
@@ -23,9 +23,9 @@
         <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
             <p>View Leave Report</p>
         </li>
-        <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
+        <!-- <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
             <p>Leave Allotment</p>
-        </li>
+        </li> -->
         <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
             <p>Logout</p>
         </li>
@@ -165,11 +165,11 @@
 | password | String | Stored as a hash |
 | gender | String | Male / Female |
 | image | String | Must be provided |
-| gr_number | String | Must be provided |
+| gr_number | String | Optional |
 | phone | String | Must be provided |
 | address | String | Must be provided |
-| department | String | Must be provided |
-| class | String | Must be provided |
+| department | String | Optional |
+| class | String | Optional |
 | role | Integer | From role table (foreign key) |
 | created_at | Datetime | Auto-generated |
 | updated_at | Datetime | Auto-generated |
