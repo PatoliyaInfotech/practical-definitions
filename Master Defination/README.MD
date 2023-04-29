@@ -74,10 +74,10 @@
             <p><strong>Login</strong></p>
             <p>In login module the admin can login to the application with the master login details. Admin can maintain the all student details.</p>
         </li>
-        <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
+        <!-- <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
             <p><strong>Manage Department</strong></p>
             <p>Admin can manage the department like department faculty details and student details based on personal details. And then over all student and faculty attendance details also.</p>
-        </li>
+        </li> -->
         <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
             <p><strong>Manage student</strong></p>
             <p>Admin can manage the student details like student name, register number, department, class details and other personal details also to be included and managed.</p>
@@ -94,10 +94,10 @@
             <p><strong>View Leave Report</strong></p>
             <p>Admin can view a leave report from the student and faculty. and maintain all reports. Who are maximum days take leave they are listed in leave report.</p>
         </li>
-        <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
+        <!-- <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
             <p><strong>Leave Allotment</strong></p>
             <p>Admin can create a leave allotment for all students and facilities from the allotment admin can listed the leave students and faculty.</p>
-        </li>
+        </li> -->
         <li class="ProsemirrorEditor-listItem" data-list-indent="1" data-list-type="bulleted">
             <p><strong>Logout</strong></p>
             <p>Admin will manage all details then the admin will terminate the connection.</p>
