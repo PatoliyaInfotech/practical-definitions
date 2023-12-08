@@ -21,3 +21,6 @@
 - Data Update Mechanism: Update existing database entries to avoid duplicates.
 - User Authentication: Create a system for user registration, login, and logout.
 - Product Display: Implement a paginated display for authenticated users, showing 5 products per page
+- Add Product: Add product in DB and sync to [https://dummyjson.com/docs/products#add](https://dummyjson.com/docs/products#add)
+- Update Product: Update product in DB and sync to [https://dummyjson.com/docs/products#update](https://dummyjson.com/docs/products#update)
+- Delete Product: Delete product in DB and sync to [https://dummyjson.com/docs/products#delete](https://dummyjson.com/docs/products#delete)
